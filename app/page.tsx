@@ -1,4 +1,5 @@
 import { CardHoverEffectDemo } from "@/components/Cardcor";
+import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { Card } from "@/components/ui/Card";
 import { FloatingNav } from "@/components/ui/floatnav";
@@ -25,6 +26,8 @@ export default function Home() {
 </div>
 
         <CardHoverEffectDemo/>
+
+        <Grid/>
       </div>
       
     </main>
