@@ -18,7 +18,7 @@ export function LampDemo() {
       >
         About Me <br /> 
       </motion.h1>
-      <div className="tracking-widest leading-6 text-justify relative top-24 sm:relative max-sm:top-80 text-white">
+      <div className="tracking-widest leading-6 text-justify relative top-24 sm:relative max-sm:top-[480px] text-white">
         Hello! I&apos;m Pritesh Rai, a recent graduate with a Bachelor of
         Technology in Information Technology from K.D.K College of
         Engineering, Nagpur. I achieved a strong academic record with a
