@@ -14,11 +14,11 @@ export function LampDemo() {
           duration: 0.5,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl max-sm:mt-[20rem]"
+        className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl max-sm:mt-[25rem]"
       >
         About Me <br /> 
       </motion.h1>
-      <div className="tracking-widest leading-6 text-justify relative top-24 sm:relative max-sm:top-[300px] text-white">
+      <div className="tracking-widest leading-6 text-justify relative top-24 sm:relative max-sm:top-[200px] text-white">
         Hello! I&apos;m Pritesh Rai, a recent graduate with a Bachelor of
         Technology in Information Technology from K.D.K College of
         Engineering, Nagpur. I achieved a strong academic record with a
