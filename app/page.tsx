@@ -1,12 +1,15 @@
 import { CardHoverEffectDemo } from "@/components/Cardcor";
+import Experience from "@/components/Expe";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/Projects";
+import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { FloatingNav } from "@/components/ui/floatnav";
 import { LampContainer, LampDemo } from "@/components/ui/Lamp";
 import Image from "next/image";
 import { FaHome } from "react-icons/fa";
+import { navItems } from "@/data";
 
 export default function Home() {
   return (
@@ -16,7 +19,7 @@ export default function Home() {
     >
       <div className="max-w-7xl w-full">
         <FloatingNav
-          navItems={[{ name: "Home", link: "/", icon: <FaHome /> }]}
+          navItems={navItems}
         />
         <Hero />
         <section id="about">
@@ -32,6 +35,8 @@ export default function Home() {
         <Grid/>
         </section>
         <RecentProjects/>
+        <Experience/>
+        <Footer/>
       </div>
       
     </main>
