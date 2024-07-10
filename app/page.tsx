@@ -1,6 +1,7 @@
 import { CardHoverEffectDemo } from "@/components/Cardcor";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
+import RecentProjects from "@/components/Projects";
 import { Card } from "@/components/ui/Card";
 import { FloatingNav } from "@/components/ui/floatnav";
 import { LampContainer, LampDemo } from "@/components/ui/Lamp";
@@ -30,6 +31,7 @@ export default function Home() {
 
         <Grid/>
         </section>
+        <RecentProjects/>
       </div>
       
     </main>
