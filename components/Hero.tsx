@@ -33,7 +33,7 @@ const Hero = () => {
 
           <a href='#about' className='mt-4'>
             <MagicButton 
-            title='My Project&apos;s'
+            title='Let&apos;s Dive in !!'
             icon={<FaRocket color='#A020F0'/>}
             position='right'
             otherclasses='font-bold'
