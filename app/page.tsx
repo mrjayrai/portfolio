@@ -36,7 +36,7 @@ export default function Home() {
         </section>
         <RecentProjects/>
         <Experience/>
-        <Footer/>
+        {/* <Footer/> */}
       </div>
       
     </main>
