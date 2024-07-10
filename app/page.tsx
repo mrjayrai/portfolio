@@ -1,4 +1,6 @@
+import { CardHoverEffectDemo } from "@/components/Cardcor";
 import Hero from "@/components/Hero";
+import { Card } from "@/components/ui/Card";
 import { FloatingNav } from "@/components/ui/floatnav";
 import { LampContainer, LampDemo } from "@/components/ui/Lamp";
 import Image from "next/image";
@@ -15,10 +17,16 @@ export default function Home() {
           navItems={[{ name: "Home", link: "/", icon: <FaHome /> }]}
         />
         <Hero />
-        <div className="">
-          <LampDemo />
-        </div>
+        <LampDemo />
+        <div className="text-center">
+  <h1 className="uppercase tracking-widest text-6xl font-semibold text-blue-100">
+    My Tech Stack
+  </h1>
+</div>
+
+        <CardHoverEffectDemo/>
       </div>
+      
     </main>
   );
 }

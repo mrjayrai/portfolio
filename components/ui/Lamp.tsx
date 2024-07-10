@@ -30,6 +30,9 @@ export function LampDemo() {
         scenarios, enhancing my practical skills and preparing me for the
         challenges of the tech industry.
       </div>
+
+      
+      
     </LampContainer>
   );
 }
