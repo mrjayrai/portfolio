@@ -18,6 +18,7 @@ export default function Home() {
           navItems={[{ name: "Home", link: "/", icon: <FaHome /> }]}
         />
         <Hero />
+        <section id="about">
         <LampDemo />
         <div className="text-center">
   <h1 className="uppercase tracking-widest text-6xl font-semibold text-blue-100">
@@ -28,6 +29,7 @@ export default function Home() {
         <CardHoverEffectDemo/>
 
         <Grid/>
+        </section>
       </div>
       
     </main>
