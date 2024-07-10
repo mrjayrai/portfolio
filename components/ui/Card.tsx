@@ -12,6 +12,7 @@ export const HoverEffect = ({
     title: string;
     description: string;
     link: string;
+    othr:string;
   }[];
   className?: string;
 }) => {
@@ -49,7 +50,7 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card>
+          <Card className={`${hoveredIndex === idx?`${item.othr}`:''}`}>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
           </Card>

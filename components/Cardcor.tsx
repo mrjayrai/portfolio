@@ -13,90 +13,105 @@ export const projects = [
     title: "C",
     description:
       "",
-    link: "https://stripe.com",
+    link: "#",
+    othr:"bg-indigo-900",
   },
   {
     title: "Java",
     description:
       "",
-    link: "https://netflix.com",
+      link: "#",
+    othr:"bg-red-500",
   },
   {
     title: "Python",
     description:
       "",
-    link: "https://google.com",
+      link: "#",
+    othr:"bg-gradient-to-r from-purple-400 md:from-yellow-500",
   },
   {
     title: "HTML",
     description:
       "",
-    link: "https://meta.com",
+      link: "#",
+    othr:"bg-orange-600",
   },
   {
     title: "CSS",
     description:
       "",
-    link: "https://meta.com",
+    link: "#",
+    othr:"bg-sky-700",
   },
   {
     title: "JS",
     description:
       "",
-    link: "https://meta.com",
+    link: "#",
+    othr:"bg-yellow-400",
   },
   {
     title: "NextJs",
     description:
       "",
-    link: "https://meta.com",
+    link: "#",
+    othr:"bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500",
   },
   {
     title: "React",
     description:
       "",
-    link: "https://meta.com",
+    link: "#",
+    othr:"bg-indigo-800",
   },
   {
     title: "Angular",
     description:
       "",
-    link: "https://amazon.com",
+    link: "#",
+    othr:"bg-red-600",
   },
   {
     title: "Nodejs",
     description:
       "",
-    link: "https://microsoft.com",
+    link: "#",
+    othr:"bg-green-600",
   },
   {
     title: "Express",
     description:
       "",
-    link: "https://meta.com",
+    link: "#",
+    othr:"bg-slate-600",
   },
   {
     title: "SQL",
     description:
       "",
-    link: "https://meta.com",
+    link: "#",
+    othr:"bg-[#00758f]",
   },
   {
     title: "MongoDB",
     description:
       "",
-    link: "https://meta.com",
+    link: "#",
+    othr:"bg-[#3FA037]",
   },
   {
     title: "Tailwind",
     description:
       "",
-    link: "https://meta.com",
+    link: "#",
+    othr:"bg-sky-900",
   },
   {
     title: "PHP",
     description:
       "",
-    link: "https://meta.com",
+    link: "#",
+    othr:"bg-[#8892be]",
   },
 ];
